@@ -40,10 +40,10 @@
 
 Watch a short video demonstrating MediRAG Guard in action, showcasing its ability to retrieve context-aware answers on healthcare data privacy.
 
-<video controls>
-  <source src="demo.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+[The full demo video link](https://github.com/pr0mila/MediRag-Guard/blob/main/asset/demo.webm)
+
+![Overview](assets/demo.gif)
+
 
 ---
 
@@ -51,15 +51,14 @@ Watch a short video demonstrating MediRAG Guard in action, showcasing its abilit
 
 ```
 
-medirag\_guard/
+medirag_guard/
 ├── config.py             \# Configuration parameters (API keys, paths, model names, initial data)
-├── data\_ingestion.py     \# Handles loading documents into ChromaDB
-├── context\_tree.py       \# Defines the hierarchical context tree and related utility functions
-├── rag\_system.py         \# Core RAG logic: retrieval, context expansion, prompt generation, LLM interaction
+├── data_ingestion.py     \# Handles loading documents into ChromaDB
+├── context_tree.py       \# Defines the hierarchical context tree and related utility functions
+├── rag_system.py         \# Core RAG logic: retrieval, context expansion, prompt generation, LLM interaction
 ├── main.py               \# Main entry point for running the demo and queries
 ├── .env                  \# Environment variables (e.g., GROQ\_API\_KEY)
 ├── README.md             \# This README file
-└── chroma\_db\_demo/       \# Directory for ChromaDB persistent storage (will be created automatically)
 
 ````
 
@@ -72,11 +71,11 @@ Follow these steps to get MediRAG Guard up and running on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/medirag-guard.git](https://github.com/your-username/medirag-guard.git)
+git clone [https://github.com/pr0mila/MediRag-Guard.git](https://github.com/pr0mila/MediRag-Guard.git)
 cd medirag_guard
 ````
 
-### 2\. Create a Conda Virtual Environment (Recommended)
+### 2. Create a Conda Virtual Environment (Recommended)
 
 ```bash
 conda create -n medirag_guard_env python=3.9
@@ -103,9 +102,9 @@ Or, install all the required libraries into your active Conda environment using 
 pip install -r requirements.txt
 ```
 
-### 4\. Configure Environment Variables
+### 4. Configure Environment Variables
 
-Create a `.env` file in the root directory of the project (`medirag_guard/`) and add your Groq API key:
+Create a `.env` file in the root directory of the project (`medirag_guard`) and add your Groq API key:
 
 ```
 GROQ_API_KEY="your_groq_api_key_here"
@@ -261,7 +260,7 @@ By following these steps, you can tailor MediRAG Guard to work effectively with 
 
 ## Contributing
 
-Contributions to **MediRAG Guard** are highly encouraged and valued\! If you have suggestions for new features, improvements, or wish to report any bugs, please feel free to open an issue or submit a pull request. Your contributions help make this project better for everyone.
+Contributions to **MediRAG Guard** are highly encouraged and valued! If you have suggestions for new features, improvements, or wish to report any bugs, please feel free to open an issue or submit a pull request. Your contributions help make this project better for everyone.
 
 -----
 
