@@ -1,7 +1,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub last commit](https://img.shields.io/github/last-commit/your-username/medirag-guard)](https://github.com/pr0mila/medirag_guard/commits/main)
-[![Dependencies](https://img.shields.io/librariesio/github/your-username/medirag-guard)](https://github.com/pr0mila/medirag_guard/medirag-guard)
+![Python Version](https://img.shields.io/badge/Python-%3E%3D%203.7-blue)
+![LangChain Integration](https://img.shields.io/badge/LangChain-Integrated-blue)
+![Conda Environment](https://img.shields.io/badge/Conda%20Environment-Active-green)
+![Groq API Integration](https://img.shields.io/badge/Groq%20API-Integrated-blue)
 
 # MediRAG Guard: Context-Aware Retrieval-Augmented Generation for Healthcare Data Privacy
 
@@ -58,7 +60,7 @@ medirag_guard/
 ├── rag_system.py         \# Core RAG logic: retrieval, context expansion, prompt generation, LLM interaction
 ├── main.py               \# Main entry point for running the demo and queries
 ├── .env                  \# Environment variables (e.g., GROQ\_API\_KEY)
-├── README.md             \# This README file
+└── README.md             \# This README file
 
 ````
 
@@ -71,7 +73,7 @@ Follow these steps to get MediRAG Guard up and running on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/pr0mila/MediRag-Guard.git](https://github.com/pr0mila/MediRag-Guard.git)
+git clone https://github.com/pr0mila/MediRag-Guard.git
 cd medirag_guard
 ````
 
@@ -109,7 +111,7 @@ Create a `.env` file in the root directory of the project (`medirag_guard`) and 
 ```
 GROQ_API_KEY="your_groq_api_key_here"
 # You can optionally specify a different Groq model name
-# GROQ_MODEL_NAME="llama-3.1-8b-instant"
+GROQ_MODEL_NAME="llama-3.1-8b-instant"
 ```
 
 Replace `"your_groq_api_key_here"` with your actual API key obtained from [Groq Console](https://console.groq.com/).
