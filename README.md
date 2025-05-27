@@ -8,7 +8,7 @@
 # MediRAG Guard: Context-Aware Retrieval-Augmented Generation for Healthcare Data Privacy
 
 
-**MediRAG Guard** is a specialized **R**etrieval-**A**ugmented **G**eneration (RAG) system engineered to deliver highly informed and contextually rich answers concerning healthcare data privacy. It enhances the capabilities of standard RAG by integrating a hierarchical knowledge tree, which expands and enriches the context of retrieved information, leading to more comprehensive and accurate responses from a Large Language Model (LLM).
+**MediRAG Guard** is a specialized **R**etrieval-**A**ugmented **G**eneration (RAG) system engineered to deliver highly informed and contextually rich answers concerning healthcare data privacy. It enhances the capabilities of standard RAG by integrating a hierarchical knowledge map, which expands and enriches the context of retrieved information, leading to more comprehensive and accurate responses from a Large Language Model (LLM).
 
 ---
 
