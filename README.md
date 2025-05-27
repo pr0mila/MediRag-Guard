@@ -54,13 +54,13 @@ Watch a short video demonstrating MediRAG Guard in action, showcasing its abilit
 ```
 
 medirag_guard/
-├── config.py             \# Configuration parameters (API keys, paths, model names, initial data)
-├── data_ingestion.py     \# Handles loading documents into ChromaDB
-├── context_tree.py       \# Defines the hierarchical context tree and related utility functions
-├── rag_system.py         \# Core RAG logic: retrieval, context expansion, prompt generation, LLM interaction
-├── main.py               \# Main entry point for running the demo and queries
-├── .env                  \# Environment variables (e.g., GROQ\_API\_KEY)
-└── README.md             \# This README file
+├── config.py             # Configuration parameters (API keys, paths, model names, initial data)
+├── data_ingestion.py     # Handles loading documents into ChromaDB
+├── context_tree.py       # Defines the hierarchical context tree and related utility functions
+├── rag_system.py         # Core RAG logic: retrieval, context expansion, prompt generation, LLM interaction
+├── main.py               # Main entry point for running the demo and queries
+├── .env                  # Environment variables (e.g., GROQ\_API\_KEY)
+└── README.md             # This README file
 
 ````
 
