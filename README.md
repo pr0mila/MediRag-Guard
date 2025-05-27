@@ -23,6 +23,7 @@
 -   [How it Works](#how-it-works)
 -   [Customizing with Your Own Data and Context Tree](#customizing-with-your-own-data-and-context-tree)
 -   [Contributing](#contributing)
+-   [Limitations and Future Work](limitations)
 -   [License](#license)
 
 ---
@@ -257,6 +258,17 @@ MediRAG Guard is designed to be adaptable to your specific knowledge domain. Her
       * The RAG system will then use your custom `CONTEXT_TREE` for context expansion when answering queries.
 
 By following these steps, you can tailor MediRAG Guard to work effectively with your own specific datasets and knowledge structures.
+
+-----
+## Limitations and Future Work
+
+MediRAG Guard, as a Proof of Concept, has some limitations that offer opportunities for future improvement:
+
+* **Static Context Tree**: The current context tree is manually created from a small dataset. For larger applications, automating the generation and maintenance of this tree from bigger, dynamic knowledge bases is essential.
+* **Data Scale & Diversity**: The POC uses a small set of healthcare documents. To scale to millions of diverse documents, we need better storage, retrieval, and chunking methods.
+* **Production Readiness**: While it works, the POC is not ready for production due to lack of error handling, security, performance optimization, and live monitoring.
+* **Complex Queries**: Handling vague, multi-step, or subjective queries is still challenging and requires more research to improve.
+* **Cost Optimization**: The current system focuses on functionality over cost-efficiency. Scaling for long-term use will need cost-effective LLM inference and database solutions.
 
 -----
 
