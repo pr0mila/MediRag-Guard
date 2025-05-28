@@ -6,7 +6,6 @@ load_dotenv()
 # ChromaDB Configuration
 CHROMA_PERSIST_DIR = "./chroma_db_demo"
 COLLECTION = "healthcare_data_privacy"
-EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 # Groq API Configuration
 # It's recommended to load these from environment variables for security
