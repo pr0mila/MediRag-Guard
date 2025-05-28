@@ -54,7 +54,7 @@ Watch a short video demonstrating MediRAG Guard in action, showcasing its abilit
 
 ```
 
-medirag_guard/
+MediRag-Guard/
 ├── config.py             # Configuration parameters (API keys, paths, model names, initial data)
 ├── data_ingestion.py     # Handles loading documents into ChromaDB
 ├── context_tree.py       # Defines the hierarchical context tree and related utility functions
@@ -75,7 +75,7 @@ Follow these steps to get MediRAG Guard up and running on your local machine.
 
 ```bash
 git clone https://github.com/pr0mila/MediRag-Guard.git
-cd medirag_guard
+cd MediRag-Guard
 ````
 
 ### 2. Create a Conda Virtual Environment (Recommended)
