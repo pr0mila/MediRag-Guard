@@ -30,7 +30,7 @@
 
 ## Features
 
--   **Knowledge Map / Context Tree Integration:** Leverages a predefined hierarchical context tree to provide a deeper understanding of retrieved document chunks by associating them with broader conceptual relationships.
+-   **Knowledge Map/Context Tree Integration:** Leverages a predefined hierarchical context tree to provide a deeper understanding of retrieved document chunks by associating them with broader conceptual relationships.
 -   **ChromaDB Integration:** Utilizes ChromaDB as a robust, persistent vector store for efficient semantic retrieval of relevant healthcare data privacy documents.
 -   **Groq LLM Integration:** Harnesses Groq's high-performance LLMs to generate coherent, accurate, and context-aware responses with impressive speed.
 -   **Dynamic Prompt Generation:** Constructs sophisticated prompts that intelligently combine the original user query, the content of retrieved chunks, their associated metadata, and the newly derived hierarchical context.
