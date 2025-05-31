@@ -43,7 +43,7 @@
 
 Watch a short video demonstrating MediRAG Guard in action, showcasing its ability to retrieve context-aware answers on healthcare data privacy.
 
-[The full demo video link](https://github.com/pr0mila/MediRag-Guard/blob/main/asset/demo.webm)
+[The full demo video link](https://github.com/pr0mila/MediRag-Guard/blob/main/assets/demo.webm)
 
 ![Overview](assets/demo.gif)
 
